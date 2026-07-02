@@ -6,7 +6,7 @@ on:
       - main
 
   schedule:
-    - cron: '32 16 * * *'   # Every day at 10:02 PM IST
+    - cron: '35 16 * * *'    # Every day at 10:02 PM IST
 
 
   workflow_dispatch:       # Optional: Run manually from GitHub
